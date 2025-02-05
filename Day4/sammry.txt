@@ -1,0 +1,33 @@
+### Summary Description of the Files:
+
+#### **1. `Lab1.py`: Password Validator**
+- **Purpose**: Validates a password based on specific rules.
+- **Checks**:
+  - Length > 8 characters.
+  - At least one lowercase, uppercase, digit, and special character.
+- **Feedback**: Provides specific error messages if any condition fails.
+- **Outcome**: Prints "Valid Password" if all conditions are met.
+
+#### **2. `Lab2.py`: Network Scanner**
+- **Purpose**: Scans IPs and ports to identify online hosts and open ports.
+- **Steps**:
+  1. Pings a range of IPs (`192.168.174.x` to `192.168.174.y`).
+  2. Logs online IPs to a file.
+  3. Scans ports on the first online IP.
+- **Output**: Lists online hosts and open ports.
+- **Use Case**: Useful for network administrators to monitor local networks.
+
+---
+
+### Key Features:
+- **Modular**: Functions for specific tasks.
+- **User-Friendly**: Clear feedback and prompts.
+- **Error Handling**: Manages exceptions during operations.
+
+---
+
+### Improvements:
+- **`Lab1.py`**: Add more special characters or exit option.
+- **`Lab2.py`**: Scan multiple IPs, use multithreading, or enhance logging.
+
+These scripts are practical for password validation and basic network scanning.
